@@ -1,0 +1,188 @@
+.wd-bg{
+    background-color: black;
+    border-color:rgb(47, 51, 54);
+}
+.wd-gray-space{
+    background-color: darkgray;
+    height: 5px;
+}
+.wd-content-padding{
+    padding-left: 16px;
+}
+.wd-letters{
+    font-size: 35px;
+    color: white;
+}
+.wd-search-bar-div{
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.wd-grid-row{
+    clear:both;
+}
+.wd-grid-left-search{
+    float: left;
+    width: 5%;
+}
+.wd-grid-main-search{
+    position: relative;
+    float: left;
+    width: 60%;
+    
+}
+.wd-grid-main-search img { position: absolute; bottom: 10px; left: 10px }
+.wd-gear {
+    position: absolute;
+    right:800px;
+    top:30px;
+}
+.wd-grid-right-search{
+    float: left;
+    width: 4%;
+    margin-right: 12px;
+}
+.wd-search-bar{
+    border-radius: 10px;
+    border: 2px;
+    background: lightgray;
+    height: 40px;
+    width:80%;
+    
+}
+::placeholder{
+    color:darkgray;
+    padding-left: 50px;
+}
+.wd-links-div{
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.wd-grid-left-link{
+    float: left;
+    width: 5%;
+}
+.wd-grid-right-link{
+    float: left;
+    width: 10%;
+}
+
+.wd-highlighted-link{
+    padding: 16px 0px;
+    margin: 0px 16px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+}
+#wd-a-highligght{
+    text-decoration: black;
+    color: black;
+    
+    color: rgb(0, 0, 0);
+
+}
+a{
+    text-decoration: none;
+    color: darkgray;
+}
+.wd-links-content{
+    padding: 16px;
+    font-size: 15px;
+    color: gray;
+}
+
+.wd-posts-div{
+    padding-bottom: 2px;
+}
+.wd-grid-left-posts{
+    float: left;
+    width: 5%;
+}
+.wd-grid-right-posts{
+    float: left;
+    width: 95%;
+}
+.wd-topic{
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-title{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.wd-grid-left-posts-pic{
+    float: left;
+    width: 5%;
+}
+.wd-grid-middle-posts-pic{
+    float: left;
+    width: 90%;
+}
+.wd-grid-right-posts-pic{
+    float: left;
+    width: 8%;
+    margin-right: 16px;
+}
+.wd-posts-pic{
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+.wd-author{
+    color: white;
+}
+
+.wd-posts-other-div{
+   padding-bottom: 5px;
+   padding-top: 10px;
+}
+.wd-crown-pic{
+    float:left;
+    position: relative;
+    text-align: center;
+}
+
+.wd-text-pic{
+    float:left;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-size: 35px;
+}
+
+.wd-zero-right-border{
+    border-right: transparent;
+}
+.wd-rounded-buttons{
+    border-radius: 20px;
+}
+
+.fg-color-blue{
+    color: mediumslateblue;
+}
+
+.wd-overlay-name{
+    bottom: 60px;
+    color: white;
+    font-size: 40px;
+}
+
+.wd-gray-color{
+    color:gray;
+}
+
+.wd-main-content-borders{
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.wd-rounded-images{
+    border-radius: 50%;
+}

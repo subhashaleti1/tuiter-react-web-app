@@ -1,7 +1,7 @@
 [{ "_id": 123, "topic": "Space", "userName": "SpaceX",
   "title": "Tesla CyberTruck lands on Mars and picks up the Curiosity rover on its 6' bed",
   "time": "2h",   "image": "tesla.png" ,
-  "liked": true,
+  "liked": false,
   "replies": 8783,
   "retuits": 4432,
   "likes": 23424,

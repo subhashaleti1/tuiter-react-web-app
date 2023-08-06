@@ -3,13 +3,13 @@ import TuitStats from "./tuit-stats";
 import {useDispatch} from "react-redux";
 import {VscVerifiedFilled} from "react-icons/vsc";
 
-import {deleteTuit} from "../reducers/tuits-reducer";
+import {deleteTuitThunk} from "../services/tuits-thunks";
 
 
 const TuitItem = ({tuit}) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
 
     return (
